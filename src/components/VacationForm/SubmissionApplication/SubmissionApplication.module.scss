@@ -1,0 +1,17 @@
+.DatePickerBody{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 20px;
+
+  &Name{
+    width: 120px;
+  }
+}
+
+.VacationCreate{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

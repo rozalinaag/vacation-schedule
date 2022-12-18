@@ -1,0 +1,37 @@
+@import "../../../assets/styles/var.scss";
+
+.Step{
+  width: 314px;
+  height: 746px;
+  position: relative;
+  background: $body-color;
+  border: 1px solid transparent;
+
+  &Name{
+    background-color: $step-color;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+   
+  &Content{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+  }
+}
+
+.Step:hover{
+  border: 1px solid gray;
+  border-radius: 5px;
+}
